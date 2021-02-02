@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Entre com sua conta</h2>
+
+  <div >
+    <form [formGroup]="testeForm" (ngSubmit)="onSubmit()">
+      <select class="custom-select" formControlName="cliente">
+         <option value="" disabled>Selecione</option>
+         <option *ngFor="let cliente of clientes" [ngValue]="cliente.id"> {{cliente.nome}}</option>
+      </select>
+      <button type="submit" class="btn btn-light" style="background-color: rgb(8, 200, 248);"> Entrar </button>
+   </form>
+
+  
+    
+  </div>
+  
+
+
+
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+  <form [formGroup]="cadastroForm">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" formControlName ="nome" [class.is-invalid]="exibeErro('nome')" >
+        
+      </div>
+      <div class="mb-3">
+        <label for="cpf" class="form-label">CPF:</label>
+        <input type="text" class="form-control" id="cpf" aria-describedby="emailHelp" formControlName ="cpf" [class.is-invalid]="exibeErro('cpf')" >
+        
+      </div>
+    <div class="mb-3">
+      <label for="email" class="form-label" >E-mail:</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" formControlName ="email" [class.is-invalid]="exibeErro('email')" >
+      
+    </div>
+    <div class="mb-3">
+      <label for="senha" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="senha" formControlName ="senha" [class.is-invalid]="exibeErro('senha')">
+    </div>
+    
+    <button type="submit" class="btn btn-light" style="background-color: rgb(8, 200, 248);" (click)="onSubmit()"> Cadastrar</button>
+  </form>
+</div>
+

@@ -1,18 +1,39 @@
 {
-    "usuarios": [
-        {
-            "nome": "Thiago",
-            "email": "thiago@email.com",
-            "senha": "123456",
-            "cpf": "12345678901",
-            "id": 1
-        }
-    ],
-    "contas": [
-        {
-            "saldo": 1000,
-            "idUsuario": 1,
-            "id": 1
-        }
-    ]
+  "usuarios": [
+    {
+      "nome": "Thiago",
+      "email": "thiago@email.com",
+      "senha": "123456",
+      "cpf": "12345678901",
+      "id": 1
+    },
+    {
+      "nome": "ana",
+      "cpf": "37118982890",
+      "email": "anacarolinaribeirosantos@hotmail.com",
+      "senha": "123",
+      "id": 2
+    },
+    {
+      "nome": "jkkgggg",
+      "cpf": "37118982890",
+      "email": "anacarolinaribeirosantos@hotmail.com",
+      "senha": "1234",
+      "id": 3
+    },
+    {
+      "nome": "jkkgggg",
+      "cpf": "37118982890",
+      "email": "anacarolinaribeirosantos@hotmail.com",
+      "senha": "1234",
+      "id": 4
+    }
+  ],
+  "contas": [
+    {
+      "saldo": 1000,
+      "idUsuario": 1,
+      "id": 1
+    }
+  ]
 }
